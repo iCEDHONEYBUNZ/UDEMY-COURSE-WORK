@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<Form>
+    <label for="First Name">First Name:</label>
+        <input id="First Name" name="first name" type="text" placeholder="John" required>
+    <label for="Last Name">Last Name:</label>
+        <input id="Last Name" name="Last name" type="text" placeholder="Smith" required>
+
+<!-- first and last name above-->
+<div>
+    <label for="Male">Male</label>
+        <input id="Male" name="Gender" type="radio" value="male">
+    <label for="Female">Female</label>
+        <input id="Female" name="Gender" type="radio" value="female">
+    <label for="Other">Other</label>
+        <input id="Other" name="Gender" type="radio" value="other">
+</div>
+<!--Gender buttons above-->
+<div>
+    <label for="email">Email:</label>
+        <input id="username" name="username" type="email" placeholder="your email" required>
+    <label for="pass">Password:</label>
+        <input name="password" type="password" pattern=".{5,10}" required title="password must be betweeen 5 and 10 Characters">
+</div>
+<!--email and username above-->
+<div>
+    <label>
+        Birthday:
+        <select name="month" id="b-day" required>
+            <option>Month</option>
+            <option>january</option>
+            <option>February</option>
+            <option>march</option>
+            <option>april</option>
+            <option>may</option>
+        </select>
+        <select name="day" id="b-day" required>
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <select name="year" id="b-day" required>
+            <option>year</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+        </select>
+    </label>
+</div>
+<div>
+    <label for="agreed">I agree to the terms and conditions</label>
+    <!--b-day dropdown menu-->
+    <input id="agreed" type="checkbox" required>
+</div>
+    <!-- terms-->
+<div></div>
+    <input type="submit">
+    <!--submit-->
+</Form>
+<!--form-->
+</body>
+</html>
