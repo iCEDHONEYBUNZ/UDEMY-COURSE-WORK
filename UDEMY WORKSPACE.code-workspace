@@ -11,6 +11,9 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "JS"
+		"liveServer.settings.multiRootWorkspaceName": "JS",
+		"cSpell.words": [
+			"glyphicon"
+		]
 	}
 }
